@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0" version="29.6.1">
+  <diagram name="Page-1" id="Ph-XbOTzpt7K8naD6fUj">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Dealer" vertex="1">
+          <mxGeometry height="54" width="107" x="257" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Supplier" vertex="1">
+          <mxGeometry height="54" width="119" x="984" y="1482" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Management Authority" vertex="1">
+          <mxGeometry height="54" width="222" x="243" y="924" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="1.0 Manage Dealer Orders" vertex="1">
+          <mxGeometry height="200" width="200" x="210" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-5" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="2.0 Inventory &amp; Stock Mgmt" vertex="1">
+          <mxGeometry height="213" width="213" x="661" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-6" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="3.0 Procurement &amp; Supplier" vertex="1">
+          <mxGeometry height="214" width="214" x="768" y="1156" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-7" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="4.0 Production Mgmt" vertex="1">
+          <mxGeometry height="163" width="163" x="113" y="1181" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-8" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="5.0 Intelligent Reporting" vertex="1">
+          <mxGeometry height="190" width="190" x="259" y="581" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-12" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.77;entryY=0;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-4" value="Dealer Requests">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-13" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.5;entryY=0;rounded=0;" value="Store Transactions">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="385" />
+            </Array>
+            <mxPoint x="354" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-14" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=0;entryX=0.28;entryY=1;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-1" value="Invoices">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-15" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-5" value="Check Availability">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-16" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=1;entryY=0.2;rounded=0;" value="Update/Fetch Stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1107" />
+              <mxPoint x="625" y="1419" />
+            </Array>
+            <mxPoint x="409" y="1485.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-17" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-6" value="Raw Material Shortage Alert">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="874" y="1107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-18" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.82;entryX=0.67;entryY=0;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-2" value="Request Parts">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="1419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-19" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=0;entryX=0.81;entryY=1;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-6" value="Quotations &amp; Supply">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="972" y="1419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-20" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;rounded=0;" value="Store Supplier Info">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="1419" />
+            </Array>
+            <mxPoint x="794.5" y="1468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-21" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-6" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=1;entryY=0.08;rounded=0;" value="Update Parts Stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1419" />
+            </Array>
+            <mxPoint x="409" y="1475.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-22" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.01;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-7" value="Confirm Production">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="1107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-23" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.1;entryY=0;rounded=0;" value="Consume Parts / Add Products">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="1419" />
+            </Array>
+            <mxPoint x="271.2999999999997" y="1469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-24" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=0;entryX=0;entryY=0.87;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-4" value="Trigger Dealer Stock Update">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="1107" />
+              <mxPoint x="124" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-25" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-8" value="Past Sales Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="354" y="507" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-26" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.22;entryX=0;entryY=0.7;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-8" value="Current Stock Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1419" />
+              <mxPoint x="20" y="808" />
+            </Array>
+            <mxPoint x="256" y="1486.6000000000004" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-27" edge="1" parent="1" source="AvwLDkcLOigtN6ae4iJv-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="AvwLDkcLOigtN6ae4iJv-3" value="Sales Reports &amp; AI Insights">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-28" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D3: Supplier Database" vertex="1">
+          <mxGeometry height="44" width="100" x="730" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-29" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D1: Stock Database" vertex="1">
+          <mxGeometry height="42" width="100" x="290" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="AvwLDkcLOigtN6ae4iJv-30" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" value="D2: Transaction Database" vertex="1">
+          <mxGeometry height="50" width="100" x="300" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
